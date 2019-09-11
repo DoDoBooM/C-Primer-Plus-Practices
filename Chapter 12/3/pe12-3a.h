@@ -1,3 +1,3 @@
-extern void set_mode(int);
-extern void get_info();
-extern void show_info();
+extern void set_mode(int*, int);
+extern void get_info(int, float*, float*);
+extern void show_info(int, float, float);
